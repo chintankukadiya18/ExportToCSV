@@ -1,5 +1,7 @@
 {
   "name": "Export2CSV",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
