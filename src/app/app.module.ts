@@ -5,6 +5,7 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {StatusBar} from '@ionic-native/status-bar';
 import {File} from '@ionic-native/file';
 import {InAppBrowser} from '@ionic-native/in-app-browser';
+import { FileTransfer } from '@ionic-native/file-transfer';
 import {MyApp} from './app.component';
 import {HomePage} from '../pages/home/home';
 import {ExportDataProvider} from '../providers/export-data/export-data';
@@ -26,6 +27,7 @@ import {ExportDataProvider} from '../providers/export-data/export-data';
     providers: [
         StatusBar,
         SplashScreen,
+      FileTransfer,
         {provide: ErrorHandler, useClass: IonicErrorHandler},
         ExportDataProvider,
         File,
